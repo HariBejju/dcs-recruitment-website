@@ -1,0 +1,268 @@
+.navbar-list{
+    color: rgb(36,45,82)
+}
+
+.midmidmid{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.parts{
+    display: flex;
+    justify-content: space-around;
+}
+.big{
+    font-size: 2.3rem;
+}
+.button-first{
+    display: none;
+}
+.mid-right{
+    /* padding-top: 10rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 1rem; */
+}
+
+.mid-right img{
+    justify-content: center;
+    height: 20rem;
+} 
+
+
+.midmidmid-first{
+    font-size: 2.7rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.midmidmid{
+    height: 43rem;
+}
+.midmidmid-left{
+    
+    text-align: center;
+}
+
+.stuff{
+    display: flex;
+    flex-direction: column;
+    /* height: 00rem; */
+}
+
+.comments{
+    /* padding-top: 20rem; */
+}
+
+.box{
+    padding-top: 35rem;
+}
+
+.button-inner{
+    padding-right: 0.2rem;
+}
+
+/* .data h3{
+    background-color: #f1c5b9;
+    border-radius: 10px;
+} */
+
+.top{
+    font-size: 0.9rem;
+}
+
+.stuff-up{
+    font-size: 1.6rem;
+}
+
+.stuff-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data{
+    margin-left: 0%;
+    /* padding-right: 7rem; */
+    justify-content: left;
+    text-align: left;
+}
+
+
+.last-part{
+    display: flex;
+    flex-direction: column;
+    height:20rem;
+    justify-items: center;
+}
+
+.last-left{
+    text-align: center;
+}
+.last-right{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.footer{
+    display: none;
+}
+
+
+.endgame{
+    background-color: black;
+}
+
+.second-end{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    
+}
+
+
+.form-top{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.second-end a{
+ color: #9095A7;;
+}
+
+.third-end{
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-end{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.end-end-end-card{
+    color: #9095A7;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.hambergur-menu{
+    display: inline;
+    padding-left: 3rem;
+}
+
+.endgame{
+    display: inline-block;
+    width: 100%;
+   
+}
+
+.form-top ,.second-end,.third-end,.fourth-end, .end-end-end-card{
+    background-color: rgb(12, 16, 32);
+    
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out ;
+    background-color: black;
+}
+
+.hambergur-menu.active .bar:nth-child(2){
+    opacity: 0;
+}
+.hambergur-menu.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.hambergur-menu.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.first-list{
+
+    position: fixed;
+    left: -500px;
+    top: 70px;
+    flex-direction: column;
+    background-color: white;
+    /* width: 100% */
+    text-align: center;
+    transition: 0.3s;
+
+    
+}
+
+.first-list.active{
+    left: 30px;
+    top: 90px;
+    width: 20rem;
+}
+
+.navbar-list{
+    padding-bottom: 2rem;
+}
+
+.comments{
+
+    display: grid;
+    grid-auto-flow:column ;
+    grid-auto-columns: 100%;
+    overflow-x: auto;
+    text-align: center
+}
+
+.radios{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.radios input{
+    padding-right: 2rem;
+    margin: 5px;
+}
+
+.radios input:hover{
+    background-color: orange;
+}
+
+#img1:checked ~.comments > .left-box {
+    margin-left: 0;
+}
+#img2:checked ~.comments > .mid-box{
+    margin-left: -100px;
+}
+#img3:checked ~.comments > .right-box{
+    margin-left: -200px;
+}
+#img4:checked ~.comments > .rightend-box{
+    margin-left: -300px;
+}
+
+.radios{
+    display: none;
+}
+
+.endgame{
+    background-color: rgb(12, 16, 32);
+}
+
+#span-da{
+    /* display: flex;
+    justify-content: left; */
+     margin-left: 2rem; 
+ } 
+
